@@ -74,19 +74,19 @@
 <https://example.org/measurement/measurement/reading_14> a cco:ont00001163 ;
     rdfs:label "pressure reading for Pump-A1 at 2024-03-18T08:07:00Z" ;
     cco:ont00001769 101.325 ;
-    cco:ont00001863 <https://example.org/measurement/unit/kPa> ;
+    cco:ont00001863 <https://example.org/measurement/unit/kpa_unit> ;
     cco:ont00001966 <https://example.org/measurement/quality/Pump-A1_pressure> .
 
 <https://example.org/measurement/measurement/reading_15> a cco:ont00001163 ;
     rdfs:label "pressure reading for Pump-A2 at 2024-03-19T09:07:00Z" ;
     cco:ont00001769 101.325 ;
-    cco:ont00001863 <https://example.org/measurement/unit/kPa> ;
+    cco:ont00001863 <https://example.org/measurement/unit/kpa_unit> ;
     cco:ont00001966 <https://example.org/measurement/quality/Pump-A2_pressure> .
 
 <https://example.org/measurement/measurement/reading_2> a cco:ont00001163 ;
     rdfs:label "pressure reading for Boiler-07 at 2024-03-17T19:04:00Z" ;
     cco:ont00001769 14.7 ;
-    cco:ont00001863 <https://example.org/measurement/unit/psi> ;
+    cco:ont00001863 <https://example.org/measurement/unit/pounds_per_square_inch> ;
     cco:ont00001966 <https://example.org/measurement/quality/Boiler-07_pressure> .
 
 <https://example.org/measurement/measurement/reading_3> a cco:ont00001163 ;
@@ -98,13 +98,13 @@
 <https://example.org/measurement/measurement/reading_4> a cco:ont00001163 ;
     rdfs:label "pressure reading for Boiler-07 at 2024-03-17T23:04:00Z" ;
     cco:ont00001769 101.325 ;
-    cco:ont00001863 <https://example.org/measurement/unit/kPa> ;
+    cco:ont00001863 <https://example.org/measurement/unit/kpa_unit> ;
     cco:ont00001966 <https://example.org/measurement/quality/Boiler-07_pressure> .
 
 <https://example.org/measurement/measurement/reading_5> a cco:ont00001163 ;
     rdfs:label "pressure reading for Boiler-09 at 2024-03-18T19:06:00Z" ;
     cco:ont00001769 13.7 ;
-    cco:ont00001863 <https://example.org/measurement/unit/psi> ;
+    cco:ont00001863 <https://example.org/measurement/unit/pounds_per_square_inch> ;
     cco:ont00001966 <https://example.org/measurement/quality/Boiler-09_pressure> .
 
 <https://example.org/measurement/measurement/reading_6> a cco:ont00001163 ;
@@ -163,9 +163,9 @@
         cco:ont00001450 ;
     rdfs:label "V" .
 
-<https://example.org/measurement/unit/psi> a cco:ont00000120,
+<https://example.org/measurement/unit/pounds_per_square_inch> a cco:ont00000120,
         cco:ont00001694 ;
-    rdfs:label "psi" .
+    rdfs:label "pounds_per_square_inch" .
 
 <https://example.org/measurement/quality/Boiler-07_pressure> a bfo:BFO_0000019,
         bfo:BFO_0000020 .
@@ -179,8 +179,8 @@
 <https://example.org/measurement/quality/Chiller_3_temperature> a bfo:BFO_0000019,
         bfo:BFO_0000020 .
 
-<https://example.org/measurement/unit/kPa> a cco:ont00000120 ;
-    rdfs:label "kPa" .
+<https://example.org/measurement/unit/kpa_unit> a cco:ont00000120 ;
+    rdfs:label "kpa_unit" .
 
 <https://example.org/measurement/unit/F> a cco:ont00000120,
         cco:ont00001724 ;

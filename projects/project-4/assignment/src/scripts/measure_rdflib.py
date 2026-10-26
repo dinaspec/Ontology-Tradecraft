@@ -27,9 +27,9 @@ MU = CCO["ont00000120"]        # Measurement Unit
 UNIT_CLASSES = {
     "C": CCO["ont00001606"],    # Degree Celsius Measurement Unit
     "F": CCO["ont00001724"],    # Degree Fahrenheit Measurement Unit
-    "psi": CCO["ont00001694"],  # Pounds Per Square Inch Measurement Unit
+    "pounds_per_square_inch": CCO["ont00001694"],  # Pounds Per Square Inch Measurement Unit
     "V": CCO["ont00001450"],    # Volt Measurement Unit
-    "kPa": MU,                  # Generic Measurement Unit for now
+    "kpa_unit": MU,                  # Generic Measurement Unit for now
     "ohm": MU,                  # Generic Measurement Unit for now
 }
 
